@@ -1,0 +1,144 @@
+body
+{
+    background-color: white;
+    font-family: "roboto", arial;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.navbar
+{
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    align-items:center ;
+    background-color: black;
+}
+.logo img
+{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+.Links
+{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+.Links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+.part1{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+.part1-1{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: "Roboto",arial;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    margin-right :40px; ;
+
+}
+.part1-1 p{
+    font-family: "Roboto",arial;
+    text-align: left;
+    
+}
+.part1-2 img{
+    width: 800px;
+    height: 500px;
+}
+.part2{
+    display:flex;
+    flex-direction: column;
+    
+}
+h2{
+    font-family: "roboto",arial;
+    
+}
+.part2-1{
+    display: flex;
+    justify-content: center;
+}
+.part2 img{
+    width: 240px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+.part3{
+    background-color: #d3d6db;
+    padding: 0 200px;
+}
+.part3 p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+.part3 b{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "roboto",arial;
+    text-align: right;
+    padding-right:  10px ;
+    padding-bottom: 20px;
+    padding-left: 830px;
+}
+.part4{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(98, 159, 183);
+    margin:35px 65px 35px 65px;
+    border: 0;
+    border-radius: 10px;
+
+}
+.part4-1{
+    color: rgb(255, 254, 254);
+    text-align: left;
+    margin-right: 500px;
+    
+}
+.part4-2 {
+    margin: 40px;
+    
+}
+.part4-2{
+    color: black;
+    font-family: "roboto",arial;
+    font-weight: bold;
+    background-color: rgb(98, 159, 183);
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 15px;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "roboto",arial;
+}
